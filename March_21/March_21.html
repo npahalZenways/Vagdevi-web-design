@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<form action="">
+		<div>
+			<label for="name">Name: </label>
+			<input type="text" id="name" name="name" minlength="5" required="" maxlength="7">
+		</div>
+		<br>
+		<div>
+			<label for="email">Email: </label>
+			<input type="email" id="email" name="email" placeholder="Example: abc@test.com">
+		</div>
+		<br>
+		<div>
+			<label for="key">Password: </label>
+			<input type="password" id="key" name="password">
+		</div>
+		<br>
+		<div>
+			<label for="phone">Phone: </label>
+			<input type="number" min="10" max="100" step="0.0001" name="phone" id="phone">
+		</div>
+		<br>
+		<div>
+			<label for="price">Price</label>
+			<input type="text" name="price" id="price" value="500" disabled="">
+		</div>
+		<br>
+		<div>
+			<input type="checkbox" name="terms" id="terms"><label for="terms">By clicking you accept the terms n conditions</label>
+		</div>
+		<div>
+			<input type="radio" name="gender" id="male"><label for="male">Male</label>
+			<input type="radio" name="gender" id="female"><label for="female">Female</label>
+		</div>
+		<div>
+			<input type="color" name="color">
+		</div>
+		<input type="submit" name="submit" value="Proceed">
+	</form>
+
+	<video controls="">
+		<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+	</video>
+</body>
+</html>
