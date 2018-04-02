@@ -1,0 +1,40 @@
+style = " property: value "
+
+id, class - both are case sensitive
+local bookmarks
+
+images:
+image tag
+src, alt, title
+images inside links or image as a link
+background-image:url('')
+picture element
+<picture>
+	<source media="(min-width: 550px)" srcset="url.jpg">
+	<source media="(min-width: 650px)" srcset="url2.jpg">
+	<img src="url3.jpg" alt="">
+</picture>
+
+table:
+table, thead, tbody, tr, th, td
+border
+rowspan, colspan
+caption - insert <caption> tag just after <table> tag
+
+lists:
+ol, ul, nested lists, start attribute
+dl (description lists) - dt (description title)bootstrap
+ - dd (description data)
+
+comments
+
+iframe
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+--------------------------------
+
+types of css
+
+colors: name, rgb, rgba, hex, hsl

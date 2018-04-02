@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <style>
+            /* * selects all elements */
+            *{
+
+            }
+            /* Tag name selectors */
+            p{
+                color: blue;
+            }
+            #mypara{
+                background-color: aqua;
+            }
+            p.myredpara.custom{
+                color: red;
+            }
+
+            /* this will select all paragraaphs inside a div */
+            div p{
+                color: yellow;
+            }
+            /* this will select only direct child para's */
+            div > p{
+                color: black
+            }
+
+            /* selects all o tags which lies immediately after div */
+            div + p{
+                color: green;
+            }
+            a{
+                color: pink;
+                display: block;
+            }
+
+            /* attribute selectors */
+            [href]{
+                color: brown;
+            }
+            [href~="#"]{
+                color: blueviolet;
+            }
+            p:hover{
+                background-color: black;
+            }
+            div h6:last-child{
+                color: bisque
+            }
+
+            div h6:nth-child(odd):hover{
+                color: cadetblue;
+            }
+        </style>
+    </head>
+    <body>
+        <p href="1 23">
+            This is my para
+        </p>
+        <div>
+            <p>
+                this is para inside div
+            </p>
+            <section>
+                <p>
+                    para inside section
+                </p>
+            </sectio    n>
+        </div>
+        <p>
+            immediately after div
+        </p>
+        <p>
+            immediately after p
+        </p>
+        <div></div>
+        <p>abc</p>
+        <a>No href provided</a>
+        <a href="#">link goes to #</a>
+        <a href="# 1">link goes to #1</a>
+        <a href="# 2">link goes to #2</a>
+        <a href="#3">link goes to #3</a>
+
+        <div>
+            <h6>h1 1</h6>
+            <h6>h1 2</h6>
+            <h6>h1 3</h6>
+            <h6>h1 4</h6>
+            <h6>h1 5</h6>
+            <h6>h1 6</h6>
+        </div>
+    </body>
+</html>
