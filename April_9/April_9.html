@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.nav-wrapper{
+			height: 60px;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			background-color: grey;
+		}
+		.link-group li{
+			display: inline;
+			padding: 5px 10px;
+			border: 1px solid #eee;
+			margin: 0 3px;
+			border-radius: 3px;
+			color: #424242;
+			background-color: #e0e0e0;
+		}
+		.link-group li:hover{
+			background-color: #424242;
+			color: #e0e0e0;
+		}
+		.nav-wrapper-2{
+			background-color: #951015;
+		}
+		.link-group-2 li{
+			display: inline-block;
+			padding: 10px;
+			color: white;
+			font-weight: bold;
+			text-indent: 0;
+		}
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+</head>
+<body>
+	<div class="nav-wrapper">
+		<ul class="link-group">
+			<li>
+				Home
+			</li>
+			<li>
+				Festival
+			</li>
+			<li>
+				Groups
+			</li>
+		</ul>
+	</div>
+	<div class="nav-wrapper-2">
+		<ul class="link-group-2">
+			<li class="bg-success">
+				Home
+			</li>
+			<li class="bg-warning">
+				Festival
+			</li>
+			<li class="bg-danger">
+				Groups
+			</li>
+		</ul>
+	</div>
+
+	<button class="btn btn-success text-danger">Click</button>
+</body>
+</html>
